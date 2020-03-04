@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/sa">
+
+        <item
+            android:id="@+id/nav_sign"
+            android:icon="@drawable/ic_brush_black_24dp"
+            android:title="@string/sign" />
+    </group>
+    <group
+        android:id="@+id/sava"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_initials"
+            android:title="@string/initials" />
+    </group>
+    <group
+        android:id="@+id/sav"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_date"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="@string/date" />
+    </group>
+
+
+</menu>
